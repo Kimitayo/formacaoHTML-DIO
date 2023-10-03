@@ -1,0 +1,69 @@
+# Projeto 1
+
+### Entendendo o Desafio
+A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas:
+ 
+Utilizar todas as tags explicadas nas aulas.
+
+### Resposta
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação HTML Web Developer</title>
+</head>
+<body>
+    <h1 id="inicio"><b>DIO: Formação HTML Web Developer - Seção 1</b></h1><hr></bh>
+    <p>A formação em HTML da DIO (Digital Innovation One) é um recurso valioso para programadores que estão buscando se desenvolver na área de frontend, ou seja, na criação da interface de usuário de sites e aplicativos. Essa formação oferece uma introdução completa ao HTML, a linguagem fundamental para a estruturação de páginas web.<br>
+    Esse artigo irá se dedicar a seção 1, intitulada "Primeiros Passos com HTML", dessa formação, que pode ser dividido em 3 módulos.</p>
+
+    <h2>Índice:</h2>
+    <il style="font-size: 15px;"><b>
+        <li><a href="#client-server">Módulo 1: Entendendo a comunicação Client x Server</a> </li>
+        <li><a href="#introducao">Módulo 2: Introdução ao HTML na prática</a></li>
+        <li><a href="#desafio">Módulo 3: Como entregar seu desafio do projeto</a></li>
+        <li><a href="#referencias">Referências</a></li>
+        </li></b>
+    </il>
+
+    <h2 id="client-server">Módulo 1: Entendendo a comunicação Client x Server</h2><small><a href="#inicio">(Voltar)</a></small>
+    <p>Este módulo ensina os princípios fundamentais da comunicação entre um cliente (geralmente um navegador da web) e um servidor em um contexto de desenvolvimento web. É um conceito essencial para qualquer pessoa que queira trabalhar com desenvolvimento web ou criar aplicativos para a web. Aqui estão algumas das principais lições que esse tópico pode ensinar:<br><br>
+    <b>Compreensão da Arquitetura Cliente-Servidor:</b> Você aprenderá sobre a arquitetura cliente-servidor, que é a base da World Wide Web. Isso envolve a compreensão de que existem dois componentes principais: o cliente (geralmente um navegador da web) e o servidor (um computador remoto que armazena recursos da web).<br><br>
+    <b>Requisições e Respostas HTTP:</b> Você entenderá como as solicitações HTTP (Hypertext Transfer Protocol) são usadas pelo cliente para solicitar recursos, como páginas da web ou dados, e como o servidor responde a essas solicitações com respostas HTTP.<br><br>
+    <b>URLs e Endereçamento Web:</b> Você aprenderá sobre URLs (Uniform Resource Locators) e como eles são usados para identificar recursos na web. Isso inclui a compreensão de partes de uma URL, como protocolo, domínio e caminho.<br><br>
+
+    <mark>Compreender a comunicação cliente-servidor é fundamental para desenvolver aplicativos web eficazes</mark>, pois a web é uma plataforma baseada em protocolos de comunicação e interação entre o navegador do cliente e os servidores que hospedam conteúdo e serviços. Isso permite que você crie sites dinâmicos, aplicativos web interativos e serviços online escaláveis. Portanto, é um conhecimento valioso para qualquer desenvolvedor web.</p>
+
+    <h2 id="introducao">Módulo 2: Introdução ao HTML na prática</h2><small><a href="#inicio">(Voltar)</a></small>
+    <p>Neste módulo, foi introduzido as principais tags usadas no HTML, as quais são:<br><br>
+
+    <b>html:</b> Define o início e o fim do documento HTML.<br>
+    <b>head:</b> Contém informações sobre o documento, como título, metadados, links para estilos e scripts.<br>
+    <b>title:</b> Define o título da página que aparece na barra de título do navegador.<br>
+    <b>style:</b> Permite a incorporação de estilos CSS diretamente na página.<br>
+    <b>body:</b> Contém o conteúdo visível da página, como texto, imagens, links e outros elementos.<br>
+    <b>h1, h2, h3, h4, h5, h6:</b> Usadas para criar cabeçalhos ou títulos com diferentes níveis de importância.<br>
+    <b>p:</b> Define parágrafos de texto.<br>
+    <b>a:</b> Cria links de âncora para navegar para outras páginas ou recursos.<br>
+    <b>ul:</b> Define uma lista não ordenada.<br>
+    <b>ol:</b> Define uma lista ordenada.<br>
+    <b>li:</b> Representa um item de lista dentro de <u>ul</u> ou <u>ol</u>.<br>
+    <b>div:</b> É um contêiner genérico usado para agrupar e estruturar elementos.<br>
+    <b>span:</b> Similar ao <u>div</u>, mas para elementos inline (como texto ou partes de texto).
+    </p>
+
+    <h2 id="desafio">Módulo 3: Como entregar seu desafio do projeto</h2><small><a href="#inicio">(Voltar)</a></small>
+    <p>O módulo 3 deste curso apresentou uma parte fundamental para qualquer desenvolvedor: o <b>GitHub</b> e como armazenar projetos nessa plataforma. <mark>O GitHub é uma das ferramentas mais populares e poderosas para o controle de versionamento de código e colaboração em projetos de software.</mark></p>
+
+    <h2 id="referencias">Referências</h2><small><a href="#inicio">(Voltar)</a></small>
+    <ol>
+        <li><a href="https://web.dio.me/home">https://web.dio.me/home</a></li>
+        <li><a href="https://github.com/">https://github.com/</a></li>
+        <li><a href="https://www.w3schools.com/TAGS/default.asp">https://www.w3schools.com/TAGS/default.asp</a></li>
+        <li><a href="https://www.youtube.com/watch?v=-FQP7hD-J6A&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=Mjg2NjY&feature=emb_logo">https://www.youtube.com/watch?v=-FQP7hD-J6A&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=Mjg2NjY&feature=emb_logo</a></li>
+    </ol>
+</body>
+</html>
+```
