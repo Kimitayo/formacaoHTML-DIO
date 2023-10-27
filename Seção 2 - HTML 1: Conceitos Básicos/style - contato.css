@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@500&family=Lora:ital,wght@1,600&family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,800;0,900;1,500&family=Roboto:wght@500&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+
+html, body {
+    margin: 0;
+}
+body {
+
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu{
+    z-index: 7;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin-left: 725px;
+    margin-top: 50px;
+}
+
+.container-menu li{
+    padding: 10px 15px; /* Espaçamento interno em cada item */
+}
+
+.container-menu li a{
+    text-decoration: none;
+    color: rgb(231,237,244);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(130, 130, 130, 0.35);
+}
+
+.hover-menu:hover{
+    border: 2px solid rgb(231,237,244);
+    padding: 2px 6px;
+    border-radius: 3px;
+    text-shadow: 1px 1px 2px rgba(130, 130, 130, 0.4);
+}
+
+.header {
+    position: relative;
+    min-height: 140px;
+    background: rgb(57,206,141);
+    border-radius: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+.imagem {
+    position: absolute;
+
+}
+.logo {
+    width: 90px;
+    top: 30px;
+    margin-left: 220px;
+    z-index: 10;
+    filter: drop-shadow(2px 2px 7px rgba(48, 48, 48, 0.3));
+}
+
+.capa-titulo1{
+    z-index: 4;
+    top: 5px;
+    margin-left: 340px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: rgb(231,237,244);
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} 
+
+.capa-titulo2{
+    z-index: 5;
+    top: 50px;
+    margin-left: 340px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: rgb(231,237,244);
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.multi-choice-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.option {
+    margin: 5px 10px;
+}
+
+.choice[type="radio"] {
+    display: none; /* Oculta o botão de rádio nativo */
+}
+
+.label-radio {
+    cursor: pointer;
+    padding: 8px 20px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.label-radio:hover {
+    background-color: #f0f0f0;
+}
+
+.choice[type="radio"]:checked + .label-radio {
+    background-color: #2a9466;
+    color: #fff;
+    border: 2px solid #66A182;
+}
+
+
+.titulo-formulario{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    background-image: linear-gradient(to left, #33b67d, #44d998, #6BCCB7); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+}
+
+.centralizar-nome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+  
+.label-nome {
+    margin-bottom: 5px;
+}
+
+.form-nome {
+    width: 500px;
+}
+
+.input1{
+    height: 30px;
+}
+
+.input2{
+    height: 100px;
+}
+  
+label, textarea{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(60, 60, 60);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+}
+
+input, textarea{
+    border: 2px solid #e0e0e0;
+    box-shadow: 2px 2px 5px rgba(148, 148, 148, 0.2);
+}
+
+.texto-forms2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(73, 73, 73);
+    text-shadow: 1px 1px 2px rgba(75, 75, 75, 0.2);
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.botao-enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.botao{
+    background: #34bf83;
+    padding: 12px 70px;
+    border: 2px solid #34bf83;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgba(148, 148, 148, 0.2);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(70, 70, 70, 0.5);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.botao:hover{
+    background: #2fb078;
+    box-shadow: 2px 2px 5px rgba(148, 148, 148, 0.5);
+}
+
+
+
+
+.colunas-servico{
+    visibility: hidden;
+    display: flex;
+    margin: -10px 210px 0px 210px;
+    color: white;
+}
+
+.coluna-servico{
+    padding: 10px;
+    
+}
+
+
+.footer{
+    background-color: rgb(42, 148, 102);
+    min-height: 150px;
+}
+
+.colunas-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px; 
+    margin-bottom: 20px;
+}
+
+.coluna-footer1 {
+    flex: 1;
+    margin-left: 220px;
+}
+
+.logo-footer{
+    width: 90px;
+    filter: drop-shadow(2px 2px 7px rgba(48, 48, 48, 0.3));
+}
+.slogan-footer{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: rgb(231,237,244);
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(122, 122, 122, 0.4);
+}
+
+.endereco-titulo-footer, .contato-titulo-footer{
+    color: rgb(244, 243, 243);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.5);
+}
+
+.endereco-footer, .telefone-footer, .email-footer{
+    color: rgb(244, 243, 243);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    
+}
+.endereco{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.linha-icons{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    opacity: 0.4;
+    color: rgb(81, 81, 81);
+}
+
+.icones-footer{
+    display: flex;
+    justify-content:baseline;
+}
+
+.imagem-icon{
+    height: 25px;
+    margin-right: 18px;
+}
+
+.coluna-footer2 {
+    flex: 2;
+}
+
+.mapa{
+    margin: 90px 170px 0px 130px;
+}
+
+.linha-copyright{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.4;
+    color: rgb(81, 81, 81);
+}
+
+.texto-copyright{
+    text-align: center;
+    color: rgb(244, 243, 243);
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+
+
+
+
