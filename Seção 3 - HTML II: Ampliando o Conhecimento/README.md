@@ -18,3 +18,7 @@ Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais f�
 ### Links úteis
 - [Download do NVDA](https://www.nvaccess.org/download/)
 - [Wikipedia](https://pt.wikipedia.org/)
+
+## Captura do Site
+
+![Captura do Site](https://github.com/Kimitayo/formacaoHTML-DIO/assets/84105466/8da39aef-930c-4e35-98ba-9b645df30485)
